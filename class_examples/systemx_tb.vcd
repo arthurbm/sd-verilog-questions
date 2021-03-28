@@ -1,0 +1,89 @@
+$date
+	Sun Mar 21 14:35:48 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module systemx_tb $end
+$var wire 1 ! F_TB $end
+$var reg 1 " A_TB $end
+$var reg 1 # B_TB $end
+$var reg 1 $ C_TB $end
+$scope module DUT $end
+$var wire 1 " A $end
+$var wire 1 % An $end
+$var wire 1 # B $end
+$var wire 1 & Bn $end
+$var wire 1 $ C $end
+$var wire 1 ' Cn $end
+$var wire 1 ! F $end
+$var wire 1 ( m0 $end
+$var wire 1 ) m2 $end
+$var wire 1 * m6 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0*
+0)
+1(
+1'
+1&
+1%
+0$
+0#
+0"
+1!
+$end
+#10000
+0!
+0(
+0'
+1$
+#20000
+1!
+1)
+1'
+0&
+0$
+1#
+#30000
+0!
+0)
+0'
+1$
+#40000
+1'
+1&
+0%
+0$
+0#
+1"
+#50000
+0'
+1$
+#60000
+1!
+1*
+1'
+0&
+0$
+1#
+#70000
+0!
+0*
+0'
+1$
+#80000
+1!
+1(
+1'
+1&
+1%
+0$
+0#
+0"
