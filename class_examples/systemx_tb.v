@@ -25,9 +25,3 @@ module systemx_tb();
 		end
 
 endmodule
-
-
-
-
-
-
